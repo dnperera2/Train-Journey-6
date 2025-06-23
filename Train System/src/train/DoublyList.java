@@ -11,7 +11,7 @@ public class DoublyList{
             else{
                 TrackNode tem = head;
 
-                while(tem.next == null){
+                while(tem.next != null){
                     tem = tem.next;
                 }
                 tem.next = newNode;
@@ -27,4 +27,32 @@ public class DoublyList{
                 curr = curr.next;
             }
         }
+
+
+        public TrackNode findbyCode(String code){
+            TrackNode cur = head;
+
+            while(cur != null){
+                if(cur.station.getCode().equals(code)){
+                    return cur;
+                }
+                cur = cur.next;
+            }
+
+            return null;
+        }
+
+
+        public int indexOf(TrackNode node) {
+            TrackNode curr = head;
+            int count = 0;
+            while (curr != null) {
+                if (curr == node) return count;
+                curr = curr.next;
+                count++;
+            }
+            return -1; // Not found
+        }
+
+
 }
