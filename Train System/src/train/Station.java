@@ -48,13 +48,16 @@ public class Station {
         this.connectedStations = connectedStations;
     }
 
+
+
     @Override
     public String toString() {
         return "Station{" +
                 "code='" + code + '\'' +
                 ", name='" + name + '\'' +
                 ", distanceFromStart=" + distanceFromStart +
-                ", connectedStations=" + connectedStations +
                 '}';
     }
+
+
 }
