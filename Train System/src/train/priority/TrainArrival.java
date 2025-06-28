@@ -3,7 +3,7 @@ package train.priority;
 import java.util.Comparator;
 
 public class TrainArrival {
-    String trainID;
+    public String trainID;
     String type;
     int priority;
 

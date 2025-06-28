@@ -3,7 +3,7 @@ import train.Station;
 import java.util.ArrayList;
 
 public class TrainSchedule {
-    private TrainNode head;
+    public TrainNode head;
 
     public void addNode(TrainNode node){
 

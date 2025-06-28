@@ -4,7 +4,7 @@ import java.util.PriorityQueue;
 
 public class PriorityTrainQueue {
 
-    private PriorityQueue<TrainArrival> pq;
+    public PriorityQueue<TrainArrival> pq;
 
     //Comparator ensures lower number = higher priority.
     //PriorityQueue uses this to automatically sort the elements.

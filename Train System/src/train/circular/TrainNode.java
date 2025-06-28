@@ -5,9 +5,9 @@ import train.Station;
 import java.util.List;
 
 public class TrainNode {
-    String trainID;
+    public String trainID;
     List<Station> schedule ;
-    TrainNode next;
+    public TrainNode next;
 
     public TrainNode(String trainID, List<Station> schedule) {
         this.trainID = trainID;
