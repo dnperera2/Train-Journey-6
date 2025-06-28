@@ -1,5 +1,9 @@
 package train;
 
+//Doubly linked list why:
+//
+//constant time next/prev navigation ease
+
 public class DoublyList{
         private TrackNode head;
 

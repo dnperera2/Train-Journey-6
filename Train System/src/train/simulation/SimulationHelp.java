@@ -2,6 +2,11 @@ package train.simulation;
 
 import java.util.HashMap;
 
+// HashMap why:
+//
+//O(1) statistics lookup
+//excellent for tracking stations dynamically
+
 public class SimulationHelp {
     private HashMap<String, Double> timePerStation = new HashMap<>();
     private HashMap<String, Integer> passengerPerStation = new HashMap<>();

@@ -2,6 +2,14 @@ package train.graph_station;
 
 import java.util.*;
 
+//Adjacency list why:
+//
+//O(V + E) space
+//O(1) insertion time for adding neighbors (using HashMap)
+//Traversal O(V + E) time
+//Which is much better than an adjacency matrix (O(V^2)) for railway networks
+// where stations are sparse.
+
 public class StationGraph {
     public Map<Station, List<Station>> graph = new LinkedHashMap<>();
 

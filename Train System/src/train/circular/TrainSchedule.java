@@ -2,6 +2,9 @@ package train.circular;
 import train.Station;
 import java.util.ArrayList;
 
+// no need to restart from head every time
+// perfect for repeated schedules
+
 public class TrainSchedule {
     public TrainNode head;
 

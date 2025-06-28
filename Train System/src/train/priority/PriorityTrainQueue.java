@@ -2,6 +2,12 @@ package train.priority;
 
 import java.util.PriorityQueue;
 
+// PriorityQueue for arrivals why:
+//
+//heap structure in Java PriorityQueue
+//ideal for handling real-time train priorities quickly (insertion, deletion)
+
+
 public class PriorityTrainQueue {
 
     public PriorityQueue<TrainArrival> pq;

@@ -4,6 +4,11 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
 
+//Queue why:
+//
+//LinkedList provides O(1) enqueue/dequeue
+//more suitable for real time systems
+
 public class Pass_Queue {
     public Queue<passenger> queue;
 
