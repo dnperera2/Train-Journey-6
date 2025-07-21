@@ -1,4 +1,6 @@
-package train;
+package train.doubly;
+
+import train.Station;
 
 import java.util.ArrayList;
 

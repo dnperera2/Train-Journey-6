@@ -76,7 +76,7 @@ public class StationSim {
         SimulationHelp stats = new SimulationHelp();
 
         // Simulate boarding at each station
-        System.out.println("🚉 Starting Train Journey...\n");
+        System.out.println(" Starting Train Journey...\n");
 
         System.out.println("➡ At Colombo Station");
         colombo.boardPassengers(stats);

@@ -1,8 +1,10 @@
-package train;
+package train.doubly;
 
 //Doubly linked list why:
 //
 //constant time next/prev navigation ease
+
+import train.Station;
 
 public class DoublyList{
         private TrackNode head;
